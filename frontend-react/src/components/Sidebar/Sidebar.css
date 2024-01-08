@@ -1,0 +1,74 @@
+.sidebarContainer {
+    flex: 3;
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 56px;
+    /* border: 1px solid red; */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #696969;
+    border-radius: 10px;
+}
+
+.sidebarWrapper {
+    padding: 5px 10px;
+}
+
+.sidebarItmesList {
+    background-color: #282828;
+    padding: 3px 10px 15px 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebarItems {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.sidebarItems:hover {
+    background-color: #696969;
+}
+
+.itemText {
+    margin: 0px 15px;
+}
+
+.seeMoreBtn {
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 3px solid #FDFB00;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all 250ms ease;
+}
+
+.seeMoreBtn:hover {
+    background-color: #FDFB00;
+    color: #282828;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

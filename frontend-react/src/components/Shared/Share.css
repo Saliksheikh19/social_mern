@@ -1,0 +1,95 @@
+.shareBox {
+    background-color: #282828;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.shareWrapper {
+    padding: 10px;
+}
+
+.shareProfileImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareTop {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.postInputText {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    color: white;
+    width: 100%;
+}
+
+.shareBottom {
+    margin-top: 7px;
+
+}
+
+.shareOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shareOtionBtn,
+.postBtn {
+    background-color: transparent;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    transition: all 250ms ease;
+}
+
+.shareOtionBtn:hover,
+.postBtn:hover {
+    background-color: #fdfb00;
+    color: #282828;
+}
+
+.shareIcons {
+    margin-right: 5px;
+    ;
+}
+
+.postBtn {
+    border: 2px solid #fdfb00;
+    font-size: inherit;
+}
+
+.shareImgPreview{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.shareImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cancelBtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.cancelBtn:hover{
+    filter: invert(100%);
+}
